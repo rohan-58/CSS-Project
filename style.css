@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;   /*padding will be included inside height and width*/
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 115;
+}
+.logo{
+    background-image: url("amazon-logo.png");
+    background-size: cover;
+    height: 50px;
+    width:100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
